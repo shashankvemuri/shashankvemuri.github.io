@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Vemuri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/custom.css">
+    <meta content="Shashank Vemuri - Software Engineer" property="og:title">
+    <meta content="Shashank Vemuri - Software Engineer" property="og:description">
+    <meta property="og:image" content="/assets/images/.png">
+    <meta content="https://shashankvemuri.github.io" property="og:url">
+    <link rel="icon" href="/assets/images/circle_headshot.png" type="image/x-icon">
+</head>
+<body>
+    <div class="switch-wrapper">
+        <div class="sun"></div>
+        <div class="toggle-wrapper">
+          <input id="switch" type="checkbox" />
+          <label for="switch" id="toggle">Toggle</label>
+        </div>
+        <div class="moon"></div>
+      </div>
+
+      <a id="skills"></a>
+      <section class="section skills">
+        <div class="section__title">Skills</div>
+        <div class="section__content">
+          <div class="skillz">
+            <div class="skillz__category">
+              <div class="skillz__category__label">Languages</div>
+              <ul>
+                {% for framework in site.data.skills.Languages %}
+                <li class="skillz__category__item">{{framework.item}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="skillz__category">
+              <div class="skillz__category__label">Frameworks</div>
+              <ul>
+                {% for tool in site.data.skills.Frameworks %}
+                <li class="skillz__category__item">{{tool.item}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="skillz__category">
+                <div class="skillz__category__label">Libraries</div>
+                <ul>
+                  {% for thing in site.data.skills.Libraries %}
+                  <li class="skillz__category__item">{{thing.item}}</li>
+                  {% endfor %}
+                </ul>
+            </div>
+            <div class="skillz__category">
+              <div class="skillz__category__label">Tools</div>
+              <ul>
+                {% for thing in site.data.skills.Tools %}
+                <li class="skillz__category__item">{{thing.item}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' type="text/javascript" charset="utf-8"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src='/assets/scripts/main.js' type="text/javascript" charset="utf-8"></script>
+</html>

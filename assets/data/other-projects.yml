@@ -1,0 +1,203 @@
+- name: Stock Analyst Recommendations Parser
+  url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/yahoo_recs.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/yahoo_recs.py
+  description: Parses the Yahoo Finance page to retrieve analyst recommendations on any stock and downloads the data to a csv file for convenient access. 
+  used:
+    - thing: Python
+    - thing: Beautiful Soup 
+    - thing: Pandas
+    - thing: CSV
+    - thing: Datetime
+
+- name: Mark Minervini Stock Screener
+  url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/mm_stock_screener.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/mm_stock_screener.py
+  description: A stock screener based on the 8 principles in Mark Minervini Trend Template that parses through a list of NASDAQ securities and downloads successful stocks to an excel file.
+  used:
+    - thing: Python
+    - thing: Pandas
+    - thing: Yfinance
+    - thing: Datetime
+
+- name: Seasonal Stock Analysis
+  url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/seasonal_stock_analysis.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/seasonal_stock_analysis.py
+  description: Uses technical indicators on historical data to find stocks that reliably trend upwards each year (80% of the time). Check out this <a href="http://datapipes.okfnlabs.org/csv/html/?url=https://shashankvemuri.github.io/img/featured/df_tradelist.csv" target="_blank">csv file</a> to see data on these stocks!
+  used:
+    - thing: Python
+    - thing: Seaborn
+    - thing: Pandas
+    - thing: requests
+    - thing: NumPy
+
+- name: SMS Stock Data Application
+  url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/stock_data_twilio.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/stock_data_twilio.py
+  description: Created an SMS application server that returns real-time parsed data such as current prices, Yahoo Finance analyst recommendations, future price predictions, and several other statistics when sent a ticker symbol. Check out this message of data sent for <a href="/img/featured/sms-stock.jpeg" target="_blank">FuelCell Energy Inc (FCEL)</a>.
+  used:
+    - thing: Python
+    - thing: Twilio SMS API
+    - thing: Flask
+    - thing: Pandas
+    - thing: NumPy
+
+- name: Stock Price Prediction App
+  url: https://devpost.com/software/stock-portfolio-allocation
+  code: https://devpost.com/software/stock-portfolio-allocation
+  description: Created an AndroidOS and iOS application that returns the next day predicted price for any ticker using a LSTM Neural Network with greater than 90% accuracy. Check out the <a href="/img/featured/prediction/lstm_model.png" target="_blank">LSTM</a>, <a href="/img/featured/prediction/arima.png" target="_blank">ARIMA</a>, and <a href="/img/featured/prediction/moving_average.png" target="_blank">Moving Average</a> models for Tesla Inc. (TSLA)!
+  used:
+    - thing: Python
+    - thing: TensorFlow
+    - thing: Dart
+    - thing: Flutter SDK
+    - thing: Flask
+    - thing: Pandas
+    - thing: NumPy
+
+- name: Future Stock Trend Predictor
+  url: https://github.com/shashankvemuri/Finance/blob/master/Machine_Learning/ml_models_prediction.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Machine_Learning/ml_models_prediction.py
+  description: Predicts the future trend of a security using technical indicators such as RSI, ATR, ADR, CCI, and several Machine Learning methods (Logistic Regression, Support Vector Regression, Random Forest Regression, Neural Networks, etc.) and returns the outcome in binary format.
+  used:
+    - thing: Python
+    - thing: Scikit-learn
+    - thing: Matplotlib
+    - thing: Pandas
+    - thing: NumPy
+  
+# - name: Buy the Dip 
+#   url: https://github.com/shashankvemuri/Finance/blob/master/Stock_Analysis/buy_the_dip.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/Stock_Analysis/buy_the_dip.py
+#   description: Allows investors to notice when a stock has likely hit a local minimum (as a potential buy point). Check out this link to see the graph of <a href="img/featured/historical-regimes.png" target="_blank">historical regimes</a> and <a href="img/featured/hidden-states.png" target="_blank">hidden states</a> for Apple Inc. (AAPL)!
+#   used:
+#     - thing: Python
+#     - thing: Pandas
+#     - thing: Seaborn
+#     - thing: Matplotlib
+#     - thing: NumPy
+
+- name: Algorithmic Trading Bot
+  url: https://github.com/shashankvemuri/Finance/blob/master/Portfolio_Strategies/alpaca_algo_bot.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Portfolio_Strategies/alpaca_algo_bot.py
+  description: An algorithmic trading bot that uses the Alpaca Trading API to backtest strategies in a simulated market to gain insight on potential benefits and drawbacks. 
+  used:
+    - thing: Python
+    - thing: SciPy
+    - thing: Pandas
+    - thing: requests
+    - thing: Alpaca API 
+
+- name: Developer Stock API 
+  url: https://github.com/shashankvemuri/pennapps
+  code: https://devpost.com/software/developer-stock-api
+  description: 
+    Created a REST API that returns processed stock/portfolio data (Sharpe ratio, OLS Regression summary, volatility, momentum, cumulative return, beta, alpha, etc.). Check out this link to see the returns of <a href="img/featured/ols-regression.png" target="_blank">Microsoft (MSFT)</a> against the S&P 500!
+    <a class="small" href="https://devpost.com/software/developer-stock-api">🏆 Won 2nd in the National Goldman Sachs Marquee API Challenge at Pennapps XX 🏆</a>
+  used:
+    - thing: Python
+    - thing: Flask
+    - thing: Goldman Sachs Marquee API
+    - thing: Yfinance
+    - thing: Matplotlib
+
+# - name: Stock Price Resistance Algorithm
+#   url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/stock_resistance.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/stock_resistance.py
+#   description: An algorithm that plots resistance points of a stock price over time to show potential buy points. Check out this link to see a graph of the resistance points for <a href="img/featured/stock-resistance.png" target="_blank">Google (GOOGL)</a>!
+#   used:
+#     - thing: Python
+#     - thing: Pandas
+#     - thing: Yfinance
+#     - thing: Matplotlib
+
+- name: Stock Clustering Algorithm
+  url: https://github.com/shashankvemuri/Finance/blob/master/Machine_Learning/kmeans_clustering.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Machine_Learning/kmeans_clustering.py
+  description: Classifies stocks into different sectors depending on their risk and returns in order to allow for extra diversification in portfolios. Check out this link to see the regions of the <a href="img/featured/clustering.png" target="_blank">K-Means Clustering Graph</a> for my AP Microeconomics virtual stock market game portfolio!
+  used:
+    - thing: Python
+    - thing: Pandas
+    - thing: Scikit-learn
+    - thing: Yfinance
+    - thing: NumPy
+
+# - name: Stock Prediction SMS Application
+#   url: https://github.com/shashankvemuri/Finance/blob/master/stock_prediction_sms.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/stock_prediction_sms.py
+#   description: Predicts the future price of a security using Linear Regression and texts an SMS phone-number processed data for that security if the predicted price is greater than the current price. 
+#   used:
+#     - thing: Python
+#     - thing: Scikit-learn
+#     - thing: Smtplib
+#     - thing: Selenium
+#     - thing: Matplotlib
+#     - thing: NumPy
+
+- name: Stock Sentiment Analysis
+  url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/stock_sentiment.py
+  code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/stock_sentiment.py
+  description: Created a <a href="https://www.finviz.com/" target="_blank">FinViz</a> website parser that extracts stock sentiments from financial news headlines for any inputted ticker. The algorithm returns the mean sentiment value (between -1 and 1) for recent news and a Pandas DataFrame with all the data collected.
+  used:
+    - thing: Python
+    - thing: Pandas
+    - thing: Matplotlib
+    - thing: BeautifulSoup
+    - thing: requests
+
+
+# - name: Effective Portfolio Optimization
+#   url: https://github.com/shashankvemuri/Finance/blob/master/Portfolio_Strategies/portf_optimization.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/Portfolio_Strategies/portf_optimization.py
+#   description: An algorithm that optimizes the allocation in any portfolio to maximize Sharpe and minimize volatility. Check out this link to see the effective portfolio opimization for my entire <a href="img/featured/smg-portf-optimization.png" target="_blank">portfolio</a> and all <a href="img/featured/smg-indiv-optimization.png" target="_blank">individual stocks</a> in my AP Microeconomics virtual stock market game!
+#   used:
+#     - thing: Python
+#     - thing: Pandas
+#     - thing: NumPy
+#     - thing: SciPy
+#     - thing: Matplotlib
+    
+# - name: Optimal Moving Average Trader
+#   url: https://github.com/shashankvemuri/Finance/blob/master/Portfolio_Strategies/optimal_indicator_trading.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/Portfolio_Strategies/optimal_indicator_trading.py
+#   description: An optimal stock market trading simulator that uses Moving Average Technical Indicators to generate a sizeable return. Check out this graph to see the moving averages for <a href="img/featured/moving_avg.png" target="_blank">Netflix (NFLX)</a> for the past 10 years (algorithm generated 884% return)!
+#   used:
+#     - thing: Python
+#     - thing: Pandas
+#     - thing: NumPy
+#     - thing: Yfinance
+#     - thing: Datetime
+
+# - name: Expected Stock Return System 
+#   url: https://github.com/shashankvemuri/Finance/blob/master/capm_analysis.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/capm_analysis.py
+#   description: An algorithm that returns the expected return of a security over a period of time using CAPM-Analysis methodologies.
+#   used:
+#     - thing: Python
+#     - thing: CSV files
+#     - thing: NumPy
+#     - thing: Yfinance
+#     - thing: Datetime
+
+# - name: Stock Email Alert System 
+#   url: https://github.com/shashankvemuri/Finance/blob/master/email_stock_alert.py
+#   code: https://github.com/shashankvemuri/Finance/blob/master/email_stock_alert.py
+#   description: A system that sends an email with real-time data (price, alpha, beta, Rolling Sharpe Ratio, etc.) on a stock if a specific price alert is met.
+#   used:
+#     - thing: Python
+#     - thing: Smtplib
+#     - thing: Alpha Vantage API 
+#     - thing: JSON
+#     - thing: Matplotlib
+
+# - name: To-Do List Application 
+#   url: https://apptaskmaster.herokuapp.com/
+#   code: https://github.com/shashankvemuri/Task-Master
+#   description: A simple to-do list website deployed with Heroku with MySQL database functionality.
+#   img: weather
+#   used:
+#     - thing: Python 
+#     - thing: Flask
+#     - thing: CSS
+#     - thing: HTML
+#     - thing: Heroku
+#     - thing: MySQL

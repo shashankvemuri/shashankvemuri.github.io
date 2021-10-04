@@ -1,0 +1,49 @@
+Languages:
+  - item: Python
+  - item: HTML/CSS
+  - item: SQL
+  - item: R
+  - item: JavaScript
+  - item: TypeScript
+  - item: Swift
+  - item: Octave
+  - item: LaTeX
+  - item: Golang
+
+Frameworks:
+  - item: Flask
+  - item: Django
+  - item: Selenium
+  - item: TensorFlow
+  - item: MySQL
+  - item: jQuery
+  - item: Bootstrap
+  - item: Node.js
+  - item: Express
+  - item: React
+  - item: React Native
+
+Libraries:
+  - item: Pandas
+  - item: NumPy
+  - item: Matplotlib
+  - item: Scipy
+  - item: Streamlit
+  - item: Scikit-Learn
+  - item: Smtplib
+  - item: SQLite
+  - item: BeautifulSoup
+  - item: QuantMod
+  - item: Alpaca API
+  
+Tools:
+  - item: Git/GitHub
+  - item: Heroku
+  - item: XCode
+  - item: Postman
+  - item: Twilio
+  - item: MongoDB
+  - item: Android
+  - item: Excel
+  - item: AWS S3
+  - item: VS Code

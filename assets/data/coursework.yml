@@ -1,0 +1,31 @@
+Freshman:
+  - item: Honors English 1
+  - item: CP World History
+  - item: Honors Algebra 2
+  - item: Honors Chemistry
+  - item: CP Spanish 2
+  - item: Percussion
+
+Sophomore:
+  - item: Honors English 2
+  - item: Honors History
+  - item: AP Calculus BC
+  - item: AP Biology
+  - item: CP Spanish 3
+  - item: AP Microecon.
+
+Junior:
+  - item: AP Lang. and Comp.
+  - item: AP U.S. History
+  - item: AP Statistics
+  - item: AP Chemistry
+  - item: AP CS Principles
+  - item: AP Macroecon.
+
+Senior:
+- item: AP Lit. and Comp.
+- item: MultiVar. Calculus
+- item: AP Physics C
+- item: AP Gov. and Politics
+- item: AP CS A
+- item: AP Psychology
