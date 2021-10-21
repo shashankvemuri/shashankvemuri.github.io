@@ -1,2 +1,2 @@
 # https://shashankvemuri.github.io
-My Personal Website - Credit to Brittany Chiang
+My Personal Website
