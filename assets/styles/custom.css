@@ -70,7 +70,7 @@ html {
     box-sizing: inherit;
 }
 ::selection {
-    background: #ffdc00;
+    background: #007bff;
 }
 html, body {
     margin: 0;
