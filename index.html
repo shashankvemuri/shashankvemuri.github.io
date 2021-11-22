@@ -1,324 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang=en>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shashank Vemuri | Software Engineer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://shashankvemuri.github.io/assets/styles/main.css">
-    <meta content="Shashank Vemuri | Software Engineer" property="og:title">
+    <meta charset=utf-8>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <meta content=#333333 name=theme-color>
     <meta content="Hey! I'm Shashank Vemuri, a 17-year-old software engineer and content creator!" property="og:description">
-    <meta property="og:image" content="https://shashankvemuri.github.io/assets/img/og.png">
-    <meta content="https://shashankvemuri.github.io" property="og:url">
-    <link rel="icon" href="https://shashankvemuri.github.io/assets/img/circle_headshot.png" type="image/png" hreflang="en-us">
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Shashank Vemuri | Software Engineer" />
-    <meta property="og:image:width" content="1280" />
-    <meta property="og:image:height" content="800" />
-    <meta property="og:locale" content="en_US">
     <meta name="keywords" content="engineering, stock market, finance, medium, development, web, shashankvemuri, shashank, vemuri, python, North Brunswick Township High Schoool">
-    <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+    <link href="./styles/main.css" rel=stylesheet>
+    <title>Shashank Vemuri</title>
 </head>
+
 <body>
-    <div class="desk">
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-        <div>
-            <div>
-            <ul>
-                <li><a href="#about" title="About Me">About Me</a></li>
-                <li><a href="#books" title="Books">Books</a></li>
-                <li><a href="#experience" title="Experience">Experience</a></li>
-                <li><a href="Shashank_Vemuri_Resume.pdf" target="_blank" title="Resume">Resume</a></li>
+    <div id="sapper">
+        <nav class="nav">
+            <ul class="nav">
+                <li class="nav"><a href="./" class="nav selected">Home</a></li>
+                <li class="nav"><a href="./books/" class="nav">Books</a></li>
+                <li class="nav"><a href='./blog/' class="nav">Blog</a></li>
+                <li class="nav"><a href="./experience/" class="nav">Experience</a></li>
             </ul>
-            </div>
-        </div>
-        </div>
+        </nav>
+        <main class="main-styles">
+            <h1>Shashank Vemuri</h1>
+            <h2>About Me</h2>
+            <p>Currently a full-time software engineer at <a href="https://joinbloom.co" rel="noopener noreferrer" target="_blank">Bloom (YCS21)</a>. 17 years old. Here are some bullets as my bio:</p>
+            <ul class="unordered-styles">
+                <li>2021 - Graduated high school a year early to work at startups</li>
+                <li>2020 - Launched <a href="https://tradeview.herokuapp.com">TradeView</a> and scaled up to 2,500+ daily active users</li>
+                <li>2020 - Gained 1M+ views on my Python for Finance Medium articles</li>
+                <li>2019 - Joined my first high-growth startup (<a href="https://knowt.io">Knowt</a>) as a product manager</li>
+                <li>2019 - Introduced to programming through quantitative finance research at NJIT</li>
+            </ul>
+            <h2 id="portfolio">Portfolio</h2>
+            <ul class="unordered-styles">
+                <li><a href="http://www.silvergate.com/" rel="noopener noreferrer" target="_blank">Silvergate Capital Corp (NYSE: SI)</a></li>
+                <li><a href="http://www.ambarella.com/" rel="noopener noreferrer" target="_blank">Ambarella Inc (NASDAQ: AMBA)</a></li>
+                <li><a href="https://www.denbury.com/Home/default.aspx" rel="noopener noreferrer" target="_blank">Denbury Resources (NYSE: DEN)</a></li>
+            </ul>
+            <h2>Contact</h2>
+            <ul class="unordered-styles">
+                <li>{firstName}.{lastName}{1}@gmail.com</li>
+                <li><a href="https://github.com/shashankvemuri/" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+                <li><a href="https://shashank-vemuri.medium.com/" rel="noopener noreferrer" target="_blank">Medium</a></li>
+                <li><a href="https://www.linkedin.com/in/shashank-vemuri/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+            </ul>
+        </main>
     </div>
-    </div>
-
-    <div class="div-only-mobile">
-        <div class="menu-wrap">
-            <input type="checkbox" class="toggler">
-            <div class="hamburger"><div></div></div>
-            <div class="menu">
-            <div>
-                <div>
-                <ul>
-                    <li><a href="#about" title="About Me">About Me</a></li>
-                    <li><a href="#books" title="Books">Books</a></li>
-                    <li><a href="#experience" title="Experience">Experience</a></li>
-<!--                     <li><a href="Shashank_Vemuri_Resume.pdf" target="_blank" title="Resume">Resume</a></li> -->
-                </ul>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="switch-wrapper">
-        <div class="sun"></div>
-        <div class="toggle-wrapper">
-          <input id="switch" type="checkbox" />
-          <label for="switch" id="toggle">Toggle</label>
-        </div>
-        <div class="moon"></div>
-      </div>
-
-      <div id="_progress"></div>
-
-      <header class="intro">
-        <div style="display: flex;">
-            <div style="display: flex; flex-direction: column;">
-            <h1 class="intro__hello">Hello!<span class="emoji wave-hand animated"></span></h1>
-            <h2 class="intro__tagline">I'm <span class="name">Shashank Vemuri</span>, a 17-year-old software engineer, growth stock trader, content creator, and entrepreneur. Reach out to me below!
-              <span class="emoji technologist"></span>
-            </h2>
-            <h3 class="intro__contact"><span>Get in touch </span><span class="emoji pointer"></span>
-              <span><a href="mailto:shashank.vemuri1@gmail.com" target="_blank" class="highlight-link">shashank.vemuri1@gmail.com</a></span>
-            </h3>
-            </div>
-            <div class="noshowmobile" style="width: 30%; margin: auto auto; justify-content: center; align-items: center;"><img src="https://shashankvemuri.github.io/assets/img/circle_headshot.png"/></div>
-        </div>
-      </header>
-
-      <a id="about"></a>
-        <section class="section background">
-        <div class="section__title">About Me</div>
-        <div class="section__content">
-            <p style="font-size: 18px;">
-                Welcome to my website! I hope you get a small insight into my background by reading this section. You can scroll down to find more about the books I'm reading and my experiences. Thanks for visiting!
-            </p>
-            <h3 style = "margin-bottom: 0;">
-            Education:
-            </h3>
-            <p>
-            I graduated one year early from <a href="http://nbths.nbtschools.org/" target="_blank"> North Brunswick Township High School</a> to work at startups full time. <!--<a class="small"> <sup>*</sup>Graduating high school early to work at startups full time</a>-->
-            </p>
-            <h3 style = "margin-bottom: 0;">
-            Occupation:
-            </h3>
-            <p>
-            I'm currently a full-time SWE at <a href="https://joinbloom.co/" target="_blank">Bloom (YCS21)</a>, an investment brokerage for people under 18! I also work part-time at an edtech startup called <a href="https://knowt.io/" target="_blank">Knowt</a> doing Software Development and Business Operations.
-            </p>
-<!--             <h3 style = "margin-bottom: 0;">
-            Why I Code:
-            </h3>
-            <p>
-            Coding is undoubtedly the easiest way to turn your your ideas into products with the potential to impact billions of lives. That's precisely why it's so fascinating to me!
-            </p>
-            <h3 style = "margin-bottom: 0;">
-            What I Code:
-            </h3>
-            <p>
-            I enjoy building build web apps and mobile apps the most, but I also occasionally create static websites for the different projects I take on. On the side, I develop a lot of Python programs to guide my investing in the stock market.
-            </p> -->
-            <h3 style = "margin-bottom: 0;">
-            Interests:
-            </h3>
-            <p>
-            Other than coding, I love basketball, hanging out with friends, reading, and watching TV with my family. My favorite shows include Breaking Bad, Sherlock, and Attack on Titan.
-            </p>
-        </div>
-        </section>
-
-
-        <a id="books"></a>
-        <section class="section books">
-        <div class="section__title">Books</div>
-            <div class="section__content">
-            <div class="books-row">
-                <div class="books-column"></div>
-                <h3>Books I'd Recommend</h3>
-                    <ul>
-                        <li style="list-style-type: circle">A Slice of Pi: All The Maths You Forgot To Remember From School by Liz Strachan</li>
-                        <li style="list-style-type: circle">Antifragile: Things That Gain from Disorder by Nassim Taleb</li>
-                        <li style="list-style-type: circle">Deep Work: Rules for Focused Success in a Distracted World by Cal Newport</li>
-                        <li style="list-style-type: circle">How I Built This by Guy Raz</li>
-                        <li style="list-style-type: circle">How to Make Money in Stocks: A Winning System in Good Times and Bad by William J. O'Neil</li>
-                        <li style="list-style-type: circle">How to Win Friends and Influence People by Dale Carnegie</li>
-                        <li style="list-style-type: circle">Linchpin: Are You Indispensable? by Seth Godin</li>
-                        <li style="list-style-type: circle">Making Moonshots by Rahul Rana</li>
-                        <li style="list-style-type: circle">Shoe Dog: A Memoir by the Creator of Nike by Phil Knight</li>
-                        <li style="list-style-type: circle">Skin in the Game: Hidden Asymmetries in Daily Life by Nassim Taleb</li>
-                        <li style="list-style-type: circle">Swipe to Unlock by Aditya Agashe, Neel Mehta, and Parth Detroja</li>
-                        <li style="list-style-type: circle">Thank You For Arguing by Jay Heinrichs</li>
-                        <li style="list-style-type: circle">The Almanac of Naval Ravikant: A Guide to Wealth and Happiness by Eric Jorgenson</li>
-                        <li style="list-style-type: circle">The 7 Habits of Highly Effective People by Stephen Covey</li>
-                        <li style="list-style-type: circle">Think and Grow Rich by Napolean Hill</li>
-                        <li style="list-style-type: circle">Think & Trade Like a Champion by Mark Minervini</li>
-                        <li style="list-style-type: circle">Trade Like a Stock Market Wizard by Mark Minervini</li>
-                        <li style="list-style-type: circle">Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel and Blake Masters</li>
-                    </ul>
-            <div class="books-column"></div>
-                <h3>Books I'm Reading</h3>
-                    <ul>         
-                        <li style="list-style-type: circle">Atomic Habits by James Clear</li>
-                        <li style="list-style-type: circle">Principles: Life & Work by Ray Dalio</li>
-                    </ul>
-            <div class="books-column"></div>
-                <h3>Books Up Next</h3>
-                    <ul>
-                    <li style="list-style-type: circle">Better and Faster: The Proven Path to Unstoppable Ideas by Jeremy Gutsche</li>
-                    <li style="list-style-type: circle">Extreme Ownership: How U.S. Navy SEALs Lead and Win by Jocko Willink and Leif Babin</li>
-                    <li style="list-style-type: circle">Grit: The Power of Passion and Perseverance by Angela Duckworth</li>
-                    <li style="list-style-type: circle">Outliers: The Story of Success by Malcolm Gladwell</li>
-                    <li style="list-style-type: circle">Range: Why Generalists Triumph in a Specialized World by David Epstein</li>
-                    <li style="list-style-type: circle">Start With Why by Simon Sinek</li>
-                    <li style="list-style-type: circle">The Evolution of Everything: How New Ideas Emerge by Matt Ridley</li>
-                    <li style="list-style-type: circle">The Third Door by Alex Banayan</li>
-                    <li style="list-style-type: circle">The 4-Hour Work Week by Tim Ferris</li>
-                    <li style="list-style-type: circle">Why We Sleep by Matthew Walker</li>
-                    </ul>
-            </div>
-            <br>
-                <h3 class="intro__contact"><span>If you have any book suggestions, message me on</span>
-                <span><a href="https://www.linkedin.com/in/shashank-vemuri/" target="_blank" class="highlight-link">LinkedIn</a></span>!
-                </h3>
-            </div>
-        </section>
-
-        <a id="experience"></a>
-        <section class="section experience">
-          <div class="section__title">Experience</div>
-          <div class="section__content">
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://joinbloom.co/" target="_blank">Bloom (YCS21)</a>
-                </div>
-                <div class="job__time">October 2021 - Present</div>
-                </div>
-                <div class="job__position">Software Engineer</div>
-            </div>
-        
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://shashank-vemuri.medium.com/" target="_blank">Medium</a>
-                </div>
-                <div class="job__time">April 2020 - Present</div>
-                </div>
-                <div class="job__position">Top Writer in Finance & Investing</div>
-            </div>
-        
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://knowt.io/" target="_blank">Knowt Inc.</a>
-                </div>
-                <div class="job__time">September 2019 - Present</div>
-                </div>
-                <div class="job__position">Software Development & Business Operations</div>
-            </div>
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://www.linkedin.com/company/project-1b/about/" target="_blank">Project 1B</a>
-                </div>
-                <div class="job__time">October 2020 - June 2021</div>
-                </div>
-                <div class="job__position">Content & Growth</div>
-            </div>
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://nbths.tech/" target="_blank">NBTHS Technology Club</a>
-                </div>
-                <div class="job__time">September 2020 - May 2021</div>
-                </div>
-                <div class="job__position">Technical Lead</div>
-            </div>
-        
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://www.njit.edu/" target="_blank">New Jersey's Institute of Technology</a>
-                </div>
-                <div class="job__time">April 2019 - November 2020</div>
-                </div>
-                <div class="job__position">Quantitative Finance Research Intern, Dr. Stephen Taylor</div>
-            </div>
-        
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://ginitrader.com" target="_blank">GINI Investments LLC</a>
-                </div>
-                <div class="job__time">July 2020 - October 2020</div>
-                </div>
-                <div class="job__position">Software Engineer</div>
-            </div>
-        
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://tradeview.herokuapp.com" target="_blank">TradeView</a>
-                </div>
-                <div class="job__time">May 2020 - October 2020</div>
-                </div>
-                <div class="job__position">Founder & Creator</div>
-            </div>
-        
-        
-            <div class="job">
-                <div class="time-place">
-                <div class="job__company">
-                    <a href="https://finxmobile.com/" target="_blank">FinX</a>
-                </div>
-                <div class="job__time">July 2020 - September 2020</div>
-                </div>
-                <div class="job__position">Software Engineer</div>
-            </div>
-        
-            <!-- <a href="Shashank_Vemuri_Resume.pdf" target="_blank" class="arrow-link">View My Resume</a> -->
-          </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer__copyright">
-              <div class="bottom">
-                <span>Shashank Vemuri</span>
-                <img class="emoji" src="https://shashankvemuri.github.io/assets/img/emojis/rocket.png" alt="emoji">
-                <span>2021</span>
-              </div>
-            </div>
-            <div class="footer__links">
-              <a href="mailto:shashank.vemuri1@gmail.com" target="_blank" title="Email">
-                <span class="text">Email</span>
-                <img src="https://shashankvemuri.github.io/assets/img/social/email.svg" alt="Email">
-              </a>
-              <a href="https://shashank-vemuri.medium.com/" target="_blank" title="Medium">
-                <span class="text">Medium</span>
-                <img src="https://shashankvemuri.github.io/assets/img/social/medium.svg" alt="Medium">
-              </a>
-              <a href="https://github.com/shashankvemuri" target="_blank" title="GitHub">
-                <span class="text">GitHub</span>
-                <img src="https://shashankvemuri.github.io/assets/img/social/github.svg" alt="GitHub">
-              </a>
-              <a href="https://linkedin.com/in/shashank-vemuri" target="_blank" title="LinkedIn">
-                <span class="text">LinkedIn</span>
-                <img src="https://shashankvemuri.github.io/assets/img/social/linkedin.svg" alt="LinkedIn">
-              </a>
-            </div>
-          </footer>
-
-          <button id="top-button">
-            <img src="https://shashankvemuri.github.io/assets/img/emojis/pointing-up.png" alt="">
-          </button>
 </body>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' type="text/javascript" charset="utf-8"></script>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src='https://shashankvemuri.github.io/assets/scripts/main.js' type="text/javascript" charset="utf-8"></script>
 </html>

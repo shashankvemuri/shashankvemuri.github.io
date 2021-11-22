@@ -1,44 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shashank Vemuri | Software Engineer</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://shashankvemuri.github.io/assets/styles/main.css">
-  <meta content="Shashank Vemuri | Software Engineer" property="og:title">
-  <meta content="Hey! I'm Shashank Vemuri, a 17-year-old software engineer and content creator!" property="og:description">
-  <meta property="og:image" content="https://shashankvemuri.github.io/assets/img/og.png">
-  <meta content="https://shashankvemuri.github.io" property="og:url">
-  <link rel="icon" href="https://shashankvemuri.github.io/assets/img/circle_headshot.png" type="image/png" hreflang="en-us">
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Shashank Vemuri | Software Engineer" />
-  <meta property="og:image:width" content="1280" />
-  <meta property="og:image:height" content="800" />
-  <meta property="og:locale" content="en_US">
-  <meta name="keywords" content="engineering, stock market, finance, medium, development, web, shashankvemuri, shashank, vemuri, python, North Brunswick Township High Schoool">
-  <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
-</head>
-<body>
-    <div class="switch-wrapper">
-        <div class="sun"></div>
-        <div class="toggle-wrapper">
-          <input id="switch" type="checkbox" />
-          <label for="switch" id="toggle">Toggle</label>
-        </div>
-        <div class="moon"></div>
-      </div>
+<!doctype html>
+<html lang=en>
 
-      <div class=not-found>
-        <div class="name">Shashank Vemuri</div>
-        <img src="assets/img/emojis/thinking-face.png" alt="">
-        <h1>Hmmm...</h1>
-        <h2>Looks like there's nothing here.<br>Maybe you should go back <a href="/">home</a>.</h2>
-      </div>
+<head>
+    <meta charset=utf-8>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <meta content=#333333 name=theme-color>
+    <meta content="Hey! I'm Shashank Vemuri, a 17-year-old software engineer and content creator!" property="og:description">
+    <meta name="keywords" content="engineering, stock market, finance, medium, development, web, shashankvemuri, shashank, vemuri, python, North Brunswick Township High Schoool">
+    <title>404 | Shashank Vemuri</title>
+<style>
+body {
+	margin: 0;
+	font-family: "Inter",sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+    background-color: #f0f0f0
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	font-family: "Inter",sans-serif;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+main.main-styles {
+    position: relative;
+    max-width: 56em;
+    background-color: #f0f0f0;
+    padding: 2em;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+
+nav.nav {
+    border-bottom: 1px solid #D3D3D3;
+    font-weight: 300;
+    padding: 0 1em;
+}
+
+ul.nav {
+    margin: 0;
+    padding: 0
+}
+
+ul.nav::after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+li.nav {
+    display: block;
+    float: left
+}
+
+.selected.nav {
+    position: relative;
+    display: inline-block
+}
+
+.selected.nav::after {
+    position: absolute;
+    content: '';
+    width: calc(100% - 1em);
+    height: 2px;
+    background-color: #000;
+    display: block;
+    bottom: -1px
+}
+
+a.nav {
+    text-decoration: none;
+    padding: 1em .5em;
+    display: block
+}
+
+li.bullets {
+    margin: 0 0 .25em 0;
+    line-height: 1.5
+}
+
+ul.unordered-styles {
+    margin: 0 0 1em 0;
+    line-height: 1.5
+}
+
+.experience .jobs {
+    margin-bottom: 100px
+}
+
+.experience .job {
+    margin-bottom: 25px
+}
+
+.experience .job .time-place {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+@media screen and (max-width: 480px) {
+    .experience .job .time-place {
+        display: block
+    }
+}
+</style>
+</head>
+
+<body>
+    <div id="sapper">
+        <nav class="nav">
+            <ul class="nav">
+                <li class="nav"><a href="./" class="nav selected">Home</a></li>
+                <li class="nav"><a href="./books/" class="nav">Books</a></li>
+                <li class="nav"><a href='./blog/' class="nav">Blog</a></li>
+                <li class="nav"><a href="./experience/" class="nav">Experience</a></li>
+            </ul>
+        </nav>
+        <main class="main-styles">
+            <p style="text-align:center">Looks like you visited the wrong page. Try <a href="./">this</a>!</p>
+        </main>
+    </div>
 </body>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' type="text/javascript" charset="utf-8"></script>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src='/assets/scripts/main.js' type="text/javascript" charset="utf-8"></script>
 </html>
