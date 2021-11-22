@@ -22,7 +22,7 @@
 - name: Seasonal Stock Analysis
   url: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/seasonal_stock_analysis.py
   code: https://github.com/shashankvemuri/Finance/blob/master/Find_Stocks/seasonal_stock_analysis.py
-  description: Uses technical indicators on historical data to find stocks that reliably trend upwards each year (80% of the time). Check out this <a href="http://datapipes.okfnlabs.org/csv/html/?url=https://shashankvemuri.github.io/assets/img/featured/df_tradelist.csv" target="_blank">csv file</a> to see data on these stocks!
+  description: Uses technical indicators on historical data to find stocks that reliably trend upwards each year (80% of the time). Check out this <a href="http://datapipes.okfnlabs.org/csv/html/?url=https://shashankvemuri.github.io/old/assets/img/featured/df_tradelist.csv" target="_blank">csv file</a> to see data on these stocks!
   used:
     - thing: Python
     - thing: Seaborn
