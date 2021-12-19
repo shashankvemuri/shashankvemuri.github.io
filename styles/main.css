@@ -68,7 +68,7 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
 	color: #333;
-    background-color: #f0f0f0
+    background-color: ##F6F7F8
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,7 +93,7 @@ code {
     font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
 	font-size: calc(1em - 2px);
 	color: #555;
-	background-color: #f0f0f0;
+	background-color: ##F6F7F8;
 	padding: 0.2em 0.4em;
 	border-radius: 2px;
 }
@@ -107,7 +107,7 @@ code {
 main.main-styles {
     position: relative;
     max-width: 56em;
-    background-color: #f0f0f0;
+    background-color: ##F6F7F8;
     padding: 2em;
     margin: 0 auto;
     box-sizing: border-box
